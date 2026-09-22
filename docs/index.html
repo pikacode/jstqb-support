@@ -3,11 +3,116 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="refresh" content="0; url=./support/">
-  <link rel="canonical" href="https://support.pikacode.me/support/">
+  <meta name="description" content="JSTQB試験対策アプリのサポートページです。">
   <title>JSTQB試験対策 サポート</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --background: #f5f5f7;
+      --surface: #ffffff;
+      --text: #1d1d1f;
+      --secondary: #6e6e73;
+      --accent: #4d95c8;
+      --border: #e5e5ea;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
+      line-height: 1.7;
+    }
+
+    main {
+      width: min(100% - 32px, 720px);
+      margin: 0 auto;
+      padding: 56px 0 72px;
+    }
+
+    header { margin-bottom: 28px; }
+    h1, h2, p { margin-top: 0; }
+
+    h1 {
+      margin-bottom: 8px;
+      font-size: clamp(28px, 6vw, 40px);
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+    }
+
+    .lead {
+      margin-bottom: 0;
+      color: var(--secondary);
+      font-size: 16px;
+    }
+
+    section {
+      margin-top: 16px;
+      padding: 24px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+    }
+
+    h2 {
+      margin-bottom: 12px;
+      font-size: 20px;
+      line-height: 1.35;
+    }
+
+    ul { margin: 0; padding-left: 1.4em; }
+    a { color: var(--accent); overflow-wrap: anywhere; }
+    .note { color: var(--secondary); font-size: 14px; }
+
+    footer {
+      margin-top: 28px;
+      color: var(--secondary);
+      font-size: 13px;
+      text-align: center;
+    }
+
+    @media (max-width: 480px) {
+      main { padding-top: 36px; }
+      section { padding: 20px; }
+    }
+  </style>
 </head>
 <body>
-  <p><a href="./support/">JSTQB試験対策 サポート</a></p>
+  <main>
+    <header>
+      <h1>JSTQB試験対策 サポート</h1>
+      <p class="lead">アプリのご利用に関するお問い合わせを受け付けています。</p>
+    </header>
+
+    <section>
+      <h2>お問い合わせ</h2>
+      <p><a href="mailto:support@pikacode.me">support@pikacode.me</a></p>
+      <p class="note">お問い合わせの際は、以下の情報をお知らせください。</p>
+      <ul>
+        <li>使用している試験</li>
+        <li>iPhone / iPad の機種</li>
+        <li>iOS のバージョン</li>
+        <li>アプリのバージョン</li>
+        <li>発生した問題の内容</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>よくあるご確認</h2>
+      <ul>
+        <li>購入したコンテンツが表示されない場合は、アプリ内の購入復元をお試しください。</li>
+        <li>問題が続く場合は、上記の情報を添えてお問い合わせください。</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>コンテンツについて</h2>
+      <p class="note">本アプリの本文は独自に作成した解説です。JSTQB・ISTQBの公式教材、公式アプリ、公式認定サービスではありません。</p>
+    </section>
+
+    <footer>© PikaCode</footer>
+  </main>
 </body>
 </html>
